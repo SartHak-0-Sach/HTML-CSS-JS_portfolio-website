@@ -56,6 +56,21 @@ nav ul li {
   margin: 0 23px;
 }
 
+.profileicon {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    /* Add other styles if needed */
+}
+
+.profileicon img {
+    max-width: 100%; /* Ensure the image doesn't exceed its container's width */
+    display: block; /* Remove any inline spacing issues */
+    border-radius: 50%;
+    object-fit: cover ;
+    overflow:hidden !important;
+}
+
 nav ul li a {
   text-decoration: none;
   color: rgb(255, 255, 255);
@@ -98,4 +113,11 @@ nav ul li a:hover {
 .secondsection {
   max-width: 80vw;
   margin: auto;
+}
+
+main hr{
+  border: 0;
+  background: #9c97f1;
+  height: 1.2px;
+  margin: 40px 84px;
 }
