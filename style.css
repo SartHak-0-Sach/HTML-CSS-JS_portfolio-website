@@ -4,8 +4,8 @@
 }
 
 body {
-  background-color: blue;
-  color: rgb(213, 152, 96);
+  background-color: rgb(17, 17, 96);
+  color: white;
 }
 
 /* #favicon */
@@ -29,12 +29,21 @@ nav {
   justify-content: space around;
   align-items: center;
   height: 90px;
-  background-color: violet;
+  background-color: rgba(32, 56, 142, 0.484);
   /* why is the color pallete not appearing */
 }
 
 .left {
   font-size: 1.5rem;
+  margin: 25px;
+}
+
+/* Set .right to flex and flex-grow: 1 */
+.right {
+  display: flex;
+  flex-grow: 1; /* Take up remaining horizontal space */
+  justify-content: flex-end; /* Align list to the right */
+  padding-right: 20px; /* Add some padding for spacing */
 }
 
 nav ul {
@@ -49,11 +58,11 @@ nav ul li {
 
 nav ul li a {
   text-decoration: none;
-  color: rgb(92, 63, 63);
+  color: rgb(255, 255, 255);
 }
 
 nav ul li a:hover {
-  color: rgb(53, 53, 92);
+  color: rgb(0, 0, 0);
   font-size: 1.2rem;
 }
 
@@ -79,11 +88,11 @@ nav ul li a:hover {
 /* you should make different style sheets for utility classes, classes like purple mentioned below(site specific), and classes that are changing body or whole html page for better management */
 
 .purple {
-  color: rgb(76, 143, 73);
+  color: rgb(57, 182, 50);
 }
 
 #element {
-  color: rgb(120, 228, 26);
+  color: rgb(228, 124, 26);
 }
 
 .secondsection {
