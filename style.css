@@ -44,6 +44,7 @@ nav {
   flex-grow: 1; /* Take up remaining horizontal space */
   justify-content: flex-end; /* Align list to the right */
   padding-right: 20px; /* Add some padding for spacing */
+  align-items: center;
 }
 
 nav ul {
@@ -98,6 +99,8 @@ nav ul li a:hover {
 
 .rightsection img {
   width: 80%;
+  border-radius: 20%;
+  border: 5px black;
 }
 
 /* you should make different style sheets for utility classes, classes like purple mentioned below(site specific), and classes that are changing body or whole html page for better management */
