@@ -5,7 +5,7 @@
 
 body {
   background-color: blue;
-  color: white;
+  color: rgb(213, 152, 96);
 }
 
 /* #favicon */
@@ -49,11 +49,11 @@ nav ul li {
 
 nav ul li a {
   text-decoration: none;
-  color: white;
+  color: rgb(92, 63, 63);
 }
 
 nav ul li a:hover {
-  color: lavender;
+  color: rgb(53, 53, 92);
   font-size: 1.2rem;
 }
 
@@ -79,11 +79,11 @@ nav ul li a:hover {
 /* you should make different style sheets for utility classes, classes like purple mentioned below(site specific), and classes that are changing body or whole html page for better management */
 
 .purple {
-  color: yellow;
+  color: rgb(76, 143, 73);
 }
 
 #element {
-  color: lavender;
+  color: rgb(120, 228, 26);
 }
 
 .secondsection {
