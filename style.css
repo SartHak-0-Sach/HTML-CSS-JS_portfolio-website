@@ -8,12 +8,29 @@ body {
   color: white;
 }
 
+/* #favicon */
+/* { */
+/* border-radius: 50%;  */
+/* what kind of program is required for this? */
+/* } */
+
+#favicon {
+  width: 32px; /* Adjust the size as needed */
+  height: 32px; /* Adjust the size as needed */
+  border-radius: 50%; /* This makes the favicon round */
+  background-color: #ffffff; /* This is the background color for the circular area */
+  overflow: hidden; /* This ensures the favicon stays within the round shape */
+  display: inline-block; /* To maintain the circular shape */
+  margin-right: 10px; /* Optional: Adjust spacing if needed */
+}
+
 nav {
   display: flex;
   justify-content: space around;
   align-items: center;
   height: 90px;
   background-color: violet;
+  /* why is the color pallete not appearing */
 }
 
 .left {
@@ -59,7 +76,7 @@ nav ul li a:hover {
   width: 80%;
 }
 
-// you should make different style sheets for utility classes, classes like purple mentioned below(site specific), and classes that are changing body or whole html page for better management
+/* you should make different style sheets for utility classes, classes like purple mentioned below(site specific), and classes that are changing body or whole html page for better management */
 
 .purple {
   color: yellow;
@@ -69,8 +86,7 @@ nav ul li a:hover {
   color: lavender;
 }
 
-.secondsection
-{
-    max-width: 80vw;
-    margin: auto;
+.secondsection {
+  max-width: 80vw;
+  margin: auto;
 }
