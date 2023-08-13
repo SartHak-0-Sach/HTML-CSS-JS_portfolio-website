@@ -68,3 +68,9 @@ nav ul li a:hover {
 #element {
   color: lavender;
 }
+
+.secondsection
+{
+    max-width: 80vw;
+    margin: auto;
+}
