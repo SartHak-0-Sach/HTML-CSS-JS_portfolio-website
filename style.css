@@ -124,3 +124,30 @@ main hr{
   height: 1.2px;
   margin: 40px 84px;
 }
+
+.secondsection h1
+{
+  font-size: 1.9rem;
+}
+
+.text-gray
+{
+  color: gray;
+}
+
+.secondsection .box
+{
+  background: white;
+  width: 80vw;
+  height: 2px;
+  margin: 56px 0;
+  display: flex;
+}
+
+.secondsection .vertical
+{
+  height: 93px;
+  width: 1px;
+  background-color: white;
+  margin: 0 100px;
+}
