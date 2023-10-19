@@ -1,4 +1,4 @@
-* {
+/* * {
   margin: 0;
   padding: 0;
 }
@@ -8,29 +8,12 @@ body {
   color: white;
 }
 
-/* #favicon */
-/* { */
-/* border-radius: 50%;  */
-/* what kind of program is required for this? */
-/* } */
-
-#favicon {
-  width: 32px; /* Adjust the size as needed */
-  height: 32px; /* Adjust the size as needed */
-  border-radius: 50%; /* This makes the favicon round */
-  background-color: #ffffff; /* This is the background color for the circular area */
-  overflow: hidden; /* This ensures the favicon stays within the round shape */
-  display: inline-block; /* To maintain the circular shape */
-  margin-right: 10px; /* Optional: Adjust spacing if needed */
-}
-
 nav {
   display: flex;
   justify-content: space around;
   align-items: center;
   height: 90px;
   background-color: rgba(32, 56, 142, 0.484);
-  /* why is the color pallete not appearing */
 }
 
 .left {
@@ -38,12 +21,11 @@ nav {
   margin: 25px;
 }
 
-/* Set .right to flex and flex-grow: 1 */
 .right {
   display: flex;
-  flex-grow: 1; /* Take up remaining horizontal space */
-  justify-content: flex-end; /* Align list to the right */
-  padding-right: 20px; /* Add some padding for spacing */
+  flex-grow: 1; 
+  justify-content: flex-end; 
+  padding-right: 20px; 
   align-items: center;
 }
 
@@ -61,12 +43,11 @@ nav ul li {
     width: 40px;
     height: 40px;
     border-radius: 50%;
-    /* Add other styles if needed */
 }
 
 .profileicon img {
-    max-width: 100%; /* Ensure the image doesn't exceed its container's width */
-    display: block; /* Remove any inline spacing issues */
+    max-width: 100%; 
+    display: block; 
     border-radius: 50%;
     object-fit: cover ;
     overflow:hidden !important;
@@ -102,8 +83,6 @@ nav ul li a:hover {
   border-radius: 20%;
   border: 5px black;
 }
-
-/* you should make different style sheets for utility classes, classes like purple mentioned below(site specific), and classes that are changing body or whole html page for better management */
 
 .purple {
   color: rgb(57, 182, 50);
@@ -150,4 +129,4 @@ main hr{
   width: 1px;
   background-color: white;
   margin: 0 100px;
-}
+} */
