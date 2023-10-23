@@ -291,6 +291,7 @@ section {
   width: 400px;
   height: auto;
   z-index: 10;
+  opacity: 0;
 }
 
 .rotate-text {
@@ -322,6 +323,10 @@ section {
   background: #00aaff;
   border-radius: 50%;
   z-index: 1;
+  background-image: url("Sarthak.png");
+  background-size: cover;
+  background-position: -167px;
+  background-repeat: no-repeat;
 }
 
 .rotate-text span i {
