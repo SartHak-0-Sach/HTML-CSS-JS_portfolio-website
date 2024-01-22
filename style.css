@@ -53,8 +53,8 @@ header .logo {
 
 span {
   background: var(--gradient-color-bg);
-  background-clip: var(--bg-color);
   -webkit-background-clip: text;
+  background-clip: var(--bg-color);
   color: transparent;
 }
 
@@ -74,8 +74,8 @@ ul.navlist {
 .navlist li a:hover,
 .navlist li a.active {
   background: var(--gradient-color-bg);
-  background-clip: var(--bg-color);
   -webkit-background-clip: text;
+  background-clip: var(--bg-color);
   color: transparent;
 }
 
@@ -179,8 +179,8 @@ section {
   -webkit-text-stroke: 0.1vw #770753;
   background: var(--gradient-color-bg);
   background-repeat: no-repeat;
-  background-clip: var(--bg-color);
   -webkit-background-clip: text;
+  background-clip: var(--bg-color);
   background-position: 0 0;
   transition: .6s;
   letter-spacing: 2px;
