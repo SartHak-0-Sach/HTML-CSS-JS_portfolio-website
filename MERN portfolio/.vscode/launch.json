@@ -8,8 +8,8 @@
       "args": [],
       "stopAtEntry": false,
       "externalConsole": true,
-      "cwd": "c:/Users/saksh/OneDrive/Desktop/github/365-day_daily-problem_challenge/023-23rd_jan-Max_length_concatenated_string",
-      "program": "c:/Users/saksh/OneDrive/Desktop/github/365-day_daily-problem_challenge/023-23rd_jan-Max_length_concatenated_string/build/Debug/outDebug",
+      "cwd": "c:/Users/saksh/OneDrive/Desktop/github/365-day_daily-problem_challenge/024-24th_jan-Pseudo_palindromic_paths",
+      "program": "c:/Users/saksh/OneDrive/Desktop/github/365-day_daily-problem_challenge/024-24th_jan-Pseudo_palindromic_paths/build/Debug/outDebug",
       "MIMode": "gdb",
       "miDebuggerPath": "gdb",
       "setupCommands": [
