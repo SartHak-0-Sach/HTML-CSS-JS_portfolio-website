@@ -54,9 +54,10 @@ header .logo {
 span {
   background: var(--gradient-color-bg);
   -webkit-background-clip: text;
-  background-clip: var(--bg-color);
+  background-clip: text; 
   color: transparent;
 }
+
 
 ul.navlist {
   display: flex;
@@ -75,7 +76,7 @@ ul.navlist {
 .navlist li a.active {
   background: var(--gradient-color-bg);
   -webkit-background-clip: text;
-  background-clip: var(--bg-color);
+  background-clip: text;
   color: transparent;
 }
 
@@ -180,7 +181,7 @@ section {
   background: var(--gradient-color-bg);
   background-repeat: no-repeat;
   -webkit-background-clip: text;
-  background-clip: var(--bg-color);
+  background-clip: text;
   background-position: 0 0;
   transition: .6s;
   letter-spacing: 2px;
@@ -323,7 +324,7 @@ section {
   background: #00aaff;
   border-radius: 50%;
   z-index: 1;
-  background-image: url("Sarthak.png");
+  background-image: url("/assets/Sarthak.png");
   background-size: cover;
   background-position: -167px;
   background-repeat: no-repeat;
@@ -963,7 +964,7 @@ footer {
 
 #progress {
   position: fixed;
-  /* background: #194eb9; */
+  /* background-color: #000000; */
   z-index: 1000;
   bottom: 60px;
   right: 10px;
