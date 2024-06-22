@@ -184,12 +184,12 @@ ScrollReveal().reveal('.hero-info,.main-text,.proposal,.heading', { origin: "top
 ScrollReveal().reveal('.about-img,.fillter-buttons,.contact-info', { origin: "left" });
 ScrollReveal().reveal('.about-content,.skills', { origin: "right" });
 ScrollReveal().reveal('.allServices,.portfolio-gallery,.blog-box,footer,.img-hero', { origin: "bottom" });
-// // Convert square favicon to round using JavaScript
-// const favicon = document.querySelector("link[rel='icon']");
-// const roundedFavicon = document.createElement("link");
-// roundedFavicon.rel = "icon";
-// roundedFavicon.type = "image/x-icon";
-// roundedFavicon.href = "favicon.jpg";
+// Convert square favicon to round using JavaScript
+const favicon = document.querySelector("link[rel='icon']");
+const roundedFavicon = document.createElement("link");
+roundedFavicon.rel = "icon";
+roundedFavicon.type = "image/x-icon";
+roundedFavicon.href = "favicon.jpg";
 
-// favicon.parentNode.insertBefore(roundedFavicon, favicon);
-// favicon.parentNode.removeChild(favicon);
+favicon.parentNode.insertBefore(roundedFavicon, favicon);
+favicon.parentNode.removeChild(favicon);
