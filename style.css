@@ -682,7 +682,7 @@ section {
   left: 22%;
 }
 
-.services .showcase .half-ring {
+.services .showcase {
   position: absolute;
   width: 120px;
   height: auto;
@@ -858,7 +858,7 @@ button.mixitup-control-active {
   left: -1%;
 }
 
-.blog .showcase .half-ring {
+.blog .showcase {
   top: 10%;
   right: 10%;
 }
@@ -1017,8 +1017,8 @@ h2.counter span {
 /*======================= footer ============================ */
 footer {
   text-align: center;
-  margin: 0 8%;
-  padding: 2rem 0;
+  margin: 0 3%;
+  padding: 1rem 0;
   border-top: 2px solid #e8e1e1;
 }
 
@@ -1027,7 +1027,7 @@ footer {
   /* background-color: #000000; */
   z-index: 1000;
   bottom: 60px;
-  right: 10px;
+  right: 30px;
   width: 50px;
   height: 50px;
   display: none;
@@ -1130,7 +1130,7 @@ footer {
 
 /*======================= BrakPoints ============================ */
 
-@media(min-width: 1350px){
+@media(min-width: 1550px){
   .rotate-text{
     position: relative;
     left: -24%;
@@ -1141,7 +1141,7 @@ footer {
   }
 
   .navlist{
-    max-width: 100%;
+    max-width: 90%;
   }
 };
 
@@ -1151,7 +1151,7 @@ footer {
   }
 }
 
-@media(max-width:1026px) {
+@media(max-width:1100px) {
 
   header,
   section,
@@ -1193,7 +1193,7 @@ footer {
   }
 }
 
-@media(max-width: 881px) {
+@media(max-width: 981px) {
   .proposal {
     display: none;
   }
