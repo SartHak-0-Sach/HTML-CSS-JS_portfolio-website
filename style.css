@@ -1027,7 +1027,7 @@ footer {
   /* background-color: #000000; */
   z-index: 1000;
   bottom: 60px;
-  right: 30px;
+  right: 10px;
   width: 50px;
   height: 50px;
   display: none;
@@ -1130,20 +1130,22 @@ footer {
 
 /*======================= BrakPoints ============================ */
 
-@media(min-width: 1550px){
-  .rotate-text{
+@media(min-width: 1550px) {
+  .rotate-text {
     position: relative;
     left: -24%;
   }
 
-  .home{
+  .home {
     max-width: 100%;
   }
 
-  .navlist{
+  .navlist {
     max-width: 90%;
   }
-};
+}
+
+;
 
 @media(max-width:1200px) {
   html {
@@ -1203,7 +1205,7 @@ footer {
     justify-content: space-between;
   }
 
-  .hero-info{
+  .hero-info {
     margin-top: 120px;
   }
 
@@ -1233,7 +1235,7 @@ footer {
     box-sizing: border-box;
   }
 
-  .navlist{
+  .navlist {
     width: 95%;
   }
 
@@ -1291,7 +1293,15 @@ body {
 
 @media(max-width:530px) {
   html {
-    font-size: 80%;
+    font-size: 70%;
+  }
+
+  .hero-info {
+    margin-top: -20px;
+  }
+
+  .home {
+    padding-bottom: 10px;
   }
 
   section {
@@ -1339,5 +1349,16 @@ body {
   .fillter-buttons button {
     width: 100%;
     padding: 13px;
+  }
+}
+
+@media(max-width:350px) {
+  body{
+    font-size: 30%;
+    overflow-x: scroll;
+  }
+
+  .hero-info{
+    font-size: 40% !important;
   }
 }
